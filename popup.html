@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Panerai Extension - Options</title>
+  <script defer src="js/jquery-1.9.1.min.js"></script>
+  <script defer src="js/options.js"></script>
+  <link href="css/options.css" rel="stylesheet" type="text/css">
+ </head>
+ 
+ <body style="margin-top:-15px;">
+  <div id="main-wrap">
+   <div class="top-wrap">
+    <div class="inside-layout">
+     <div class="app-logo"></div>
+     <div class="app-name need-html-locale" id="Kernel_SettingsTitle">Panerai Extension</div>
+    </div>
+   </div>
+
+   <div class="floating-arrow-wrap">
+    <div class="floating-arrow"></div>
+   </div>
+
+   <div class="content-wrap">
+    
+    <div class="tab-contents tc-2">
+
+     <div class="settings-block">
+      <div class="headline need-html-locale" id="Settings_Facebook">FaceBook integration</div>
+      <div class="description need-html-locale" id="Settings_Facebook_Description">Load facebook social widgets, likes and comments</div>
+      <div class="adj-layout">
+       <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+         <td class="col-with-tick">
+          <input type="checkbox" id="facebook">
+         </td>
+         <td>
+          <div class="label facebook-label need-html-locale" id="Kernel_OptionEnabled">Enabled</div>
+         </td>
+        </tr>
+       </table>
+      </div>
+     </div>
+
+     <div class="settings-block">
+      <div class="headline need-html-locale" id="Settings_AllowSites">Allow sites</div>
+      <div class="description need-html-locale" id="Settings_AllowSites_Description">Sites where extension work</div>
+      <div class="adj-layout">
+      	<textarea id="AllowSites" rows="4"></textarea>
+      </div>
+      <div class="sw-item sw-item-n-1 need-html-locale sw-active-item" id="Settings_Button_Save">Save</div>
+      <div class="status" id="Settings_Status"></div>
+     </div>
+
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
